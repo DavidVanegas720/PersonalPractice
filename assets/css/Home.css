@@ -1,0 +1,99 @@
+body {
+  font-family: sans-serif;
+}
+
+.container-main {
+  margin: 0 auto;
+  border: 4px solid black;
+  width: 1200px;
+  height: 100vh;
+  display: flex;
+}
+.container-logo--left {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.container-logo--left:hover{
+  border-radius: 100px;
+  background-color: rgba(113, 118, 123, 0.3);
+}
+.container-logo--left .logo-left{
+  filter: invert(54%) sepia(30%) saturate(5591%) hue-rotate(179deg) brightness(98%) contrast(91%);
+}
+
+.left-menu {
+  border: 2px solid blue;
+  width: 25%;
+  height: 100%;
+}
+
+.center-content {
+  border: 2px solid red;
+  width: 50%;
+  height: 100%;
+}
+
+.sidebar {
+  border: 2px solid orange;
+  width: 25%;
+  height: 100%;
+}
+
+/* -----------------menu--left-------------------- */
+
+.menu {
+  border: 1px solid red;
+  height: 700px;
+}
+.menu ul {
+  border: 1px solid purple;
+  /* padding-left: 50px; */
+  padding-top: 20px;
+  margin-top: 70px;
+  width: 100%;
+  height: 500px;
+}
+.menu ul > li {
+  padding-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  border-radius: 22px;
+  width: 250px;
+  height: 50px;
+  list-style: none;
+}
+.menu ul > li:hover {
+  cursor: pointer;
+  /* border: 1px solid #71767b; */
+  background-color: rgba(113, 118, 123, 0.3);
+}
+.menu ul li a {
+  border-radius: 22px;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+.menu ul li span a > img {
+  width: 25px;
+  margin-right: 15px;
+  margin-left: 15px;
+  vertical-align: middle;
+  
+  
+}
+
+.menu .twittear {
+  width: 200px;
+  height: 50px;
+  border-radius: 28px;
+  position: absolute;
+  top: 700px;
+  left: 410px;
+   background-color: rgb(29, 155, 240);
+   color: white;
+   border: none;
+   cursor: pointer;
+   font-weight: bold;
+}
